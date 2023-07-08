@@ -1,0 +1,15 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-iriseventos-staging-30641-authRole",
+      "UnauthRoleArn": "arn:aws:iam::420839048434:role/amplify-iriseventos-staging-30641-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::420839048434:role/amplify-iriseventos-staging-30641-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-iriseventos-staging-30641-deployment",
+      "UnauthRoleName": "amplify-iriseventos-staging-30641-unauthRole",
+      "StackName": "amplify-iriseventos-staging-30641",
+      "StackId": "arn:aws:cloudformation:us-east-1:420839048434:stack/amplify-iriseventos-staging-30641/23049170-16f3-11ee-a6a2-12b6a2542413",
+      "AmplifyAppId": "dqkrrs32cx1s4"
+    }
+  }
+}

@@ -1,1 +1,0 @@
-amplify pull --appId dqkrrs32cx1s4 --envName staging
