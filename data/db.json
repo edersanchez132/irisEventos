@@ -1,0 +1,167 @@
+{
+    "eventos" : [
+        { 
+            "id": 10, 
+            "nombre": "Nombre de primer taller", 
+            "ubicacion": "Laboratorio Génesis 1",
+            "ubicacionID": 1,
+            "lugares": 11,
+            "capacidad": 30,
+            "objetivo": "Aute duis Lorem id sint nulla eiusmod consequat elit elit laboris voluptate ad ea. Excepteur ea in qui dolor amet officia est sit eu amet Lorem esse pariatur. Ad ut incididunt officia non esse laborum enim proident excepteur culpa pariatur occaecat ullamco. Proident ut aliquip in aute adipisicing.",
+            "expectativa": "Minim minim mollit deserunt officia sit officia incididunt est sit nulla enim ullamco adipisicing proident. Est enim reprehenderit ut eu proident anim ut occaecat cillum in in ipsum. Est sunt sunt mollit velit irure commodo excepteur id qui sint in ad.",
+            "imagen": "test/office01.jpg",
+            "talleres": [
+                {
+                    "id": 100,
+                    "hora" : 0,
+                    "disponibles" : 1
+                },
+                {
+                    "id": 101,
+                    "hora" : 1,
+                    "disponibles" : 4
+                },
+                {
+                    "id": 102,
+                    "hora" : 2,
+                    "disponibles" : 6
+                }
+            ]
+        },
+        { 
+            "id": 11, 
+            "nombre": "Taller 2", 
+            "ubicacion": "Sala 2",
+            "ubicacionID": 2,
+            "lugares": 0,
+            "capacidad": 30,
+            "objetivo": "Aute duis Lorem id sint nulla eiusmod consequat elit elit laboris voluptate ad ea. Excepteur ea in qui dolor amet officia est sit eu amet Lorem esse pariatur. Ad ut incididunt officia non esse laborum enim proident excepteur culpa pariatur occaecat ullamco. Proident ut aliquip in aute adipisicing.",
+            "expectativa": "Minim minim mollit deserunt officia sit officia incididunt est sit nulla enim ullamco adipisicing proident. Est enim reprehenderit ut eu proident anim ut occaecat cillum in in ipsum. Est sunt sunt mollit velit irure commodo excepteur id qui sint in ad.",
+            "imagen": "test/office01.jpg",
+            "talleres": [
+                {
+                    "id": 103,
+                    "hora" : 0,
+                    "disponibles" : 0
+                },
+                {
+                    "id": 104,
+                    "hora" : 1,
+                    "disponibles" : 0
+                },
+                {
+                    "id": 105,
+                    "hora" : 2,
+                    "disponibles" : 0
+                }
+            ]
+        },
+        { 
+            "id": 12, 
+            "nombre": "Taller 3", 
+            "ubicacion": "Sala 3",
+            "ubicacionID": 3,
+            "lugares": 0,
+            "capacidad": 30,
+            "objetivo": "Aute duis Lorem id sint nulla eiusmod consequat elit elit laboris voluptate ad ea. Excepteur ea in qui dolor amet officia est sit eu amet Lorem esse pariatur. Ad ut incididunt officia non esse laborum enim proident excepteur culpa pariatur occaecat ullamco. Proident ut aliquip in aute adipisicing.",
+            "expectativa": "Minim minim mollit deserunt officia sit officia incididunt est sit nulla enim ullamco adipisicing proident. Est enim reprehenderit ut eu proident anim ut occaecat cillum in in ipsum. Est sunt sunt mollit velit irure commodo excepteur id qui sint in ad.",
+            "imagen": "test/office01.jpg",
+            "talleres": [
+                {
+                    "id": 106,
+                    "hora" : 0,
+                    "disponibles" : 0
+                },
+                {
+                    "id": 107,
+                    "hora" : 1,
+                    "disponibles" : 0
+                },
+                {
+                    "id": 108,
+                    "hora" : 2,
+                    "disponibles" : 0
+                }
+            ]
+        }
+    ],
+    "talleres" : [
+        {
+            "id": 100,
+            "hora" : 0,
+            "disponibles" : 5,
+            "idEvento" : 10,
+            "nombreEvento": "Nombre del primer taller",
+            "ubicacion": "Sala 1",
+            "ubicacionID": 1
+        },
+        {
+            "id": 101,
+            "hora" : 1,
+            "disponibles" : 5,
+            "idEvento" : 10,
+            "nombreEvento": "Nombre del primer taller",
+            "ubicacion": "Sala 1",
+            "ubicacionID": 1
+        },
+        {
+            "id": 102,
+            "hora" : 2,
+            "disponibles" : 5,
+            "idEvento" : 10,
+            "nombreEvento": "Nombre del primer taller",
+            "ubicacion": "Sala 1",
+            "ubicacionID": 1
+        },
+        {
+            "id": 103,
+            "hora" : 0,
+            "disponibles" : 5,
+            "idEvento" : 11,
+            "nombreEvento" : "Taller 2",
+            "ubicacion": "Sala 2",
+            "ubicacionID": 2
+        },
+        {
+            "id": 104,
+            "hora" : 1,
+            "disponibles" : 5,
+            "idEvento" : 11,
+            "nombreEvento" : "Taller 2",
+            "ubicacion": "Sala 2",
+            "ubicacionID": 2
+        },
+        {
+            "id": 105,
+            "hora" : 2,
+            "disponibles" : 5,
+            "idEvento" : 11,
+            "nombreEvento" : "Taller 2",
+            "ubicacion": "Sala 2",
+            "ubicacionID": 2
+        }
+    ],
+    "rooms" : [
+        {
+            "id": 1,
+            "nombre" : "Laboratorio Génesis 1",
+            "imagen" : [
+                "office01.jpg", 
+                "office01.jpg"
+            ],
+            "descripcion" : "Do sit laboris ea nisi qui nostrud in ad mollit magna aliquip qui ipsum. Nostrud excepteur dolor excepteur officia minim Lorem minim. Exercitation pariatur incididunt sint excepteur fugiat magna. Mollit nulla culpa pariatur nulla reprehenderit magna ex. Aute labore reprehenderit aliquip occaecat cupidatat fugiat voluptate ullamco ea ipsum ex. Ad do excepteur eu tempor reprehenderit nisi anim consectetur.",
+            "evento": "Nombre de primer taller", 
+            "eventoid": 10,
+            "lugares" : 30,
+            "capacidad" : 30
+        }
+    ],
+    "usuario" : [
+        {
+            "id": 1,
+            "numero": 10101010,
+            "eventos": [0,0,0],
+            "talleres" : [0,0,0]
+        }
+    ]
+}
